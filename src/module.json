@@ -40,5 +40,5 @@
 	],
 	"url": "https://github.com/kckaiwei/TurnMarker",
 	"manifest": "https://raw.githubusercontent.com/kckaiwei/TurnMarker/master/dist/module.json",
-	"download": "https://github.com/kckaiwei/TurnMarker/archive/v2.7.0.zip"
+	"download": "https://github.com/kckaiwei/TurnMarker/releases/download/v2.7.0/turnmarker.zip"
 }
