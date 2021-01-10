@@ -10,6 +10,7 @@ const announce = 'announce-turn';
 const announceActors = 'announce-Actors';
 const announceAsActor = 'announce-asActor';
 const announceImage = 'announce-image';
+const announceTokenName = 'announce-token';
 const image = 'image';
 const customimage = 'customimage';
 const turnMarkerEnabled = 'turnmarker-enabled';
@@ -108,6 +109,14 @@ export class Settings {
      */
     static setAnnounceActors(val) {
         return game.settings.set(modName, announceActors, val);
+    }
+
+    static getAnnounceTokenName() {
+        return game.settings.get(modName, announceTokenName);
+    }
+
+    static setAnnounceTokenName(val) {
+        return game.settings.set(modName, announceTokenName, val);
     }
 
     static getIncludeAnnounceImage() {
@@ -265,6 +274,16 @@ export class Settings {
             default: 0,
             restricted: true,
             choices: announcedActorOptions,
+        });
+
+        game.settings.register(modName, announceTokenName, {
+            name: 'tm.settings.announceTokenName.name',
+            hint: 'tm.settings.announceTokenName.hint',
+            scope: 'world',
+            config: false,
+            type: Boolean,
+            default: false,
+            restricted: true,
         });
 
         game.settings.register(modName, customimage, {
