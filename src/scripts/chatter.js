@@ -8,13 +8,18 @@ export class Chatter {
             players.push(player.name);
         });
         if (players.length == 0) players.push("GM");
-        let combatantName = combatant.name;
+        let combatantName = combatant.actor.name;
+        let aliasName = combatantName;
+        if (Settings.getAnnounceTokenName()) {
+            combatantName = combatant.token.name;
+            aliasName = combatant.name;
+        }
         if (hideNPC_name && !combatant.actor.hasPlayerOwner) {
             combatantName = "???";
         }
 
         ChatMessage.create({
-            speaker: { actor: combatant.actor },
+            speaker: { actor: combatant.actor, alias: aliasName },
             //speaker: { actor: {}, alias: 'Turn Marker' },
             content:
                 `<div class="flexrow">${this.placeImage(combatant)}

@@ -79,6 +79,13 @@
             </select>
         </div>
    <p class="notes">{{localize 'tm.settings.announcedActors.hint'}}</p>
+   <div class="form-group">
+        <label>{{localize 'tm.settings.announceTokenName.name'}}</label>
+        <div class="form-fields">
+            <input name="announceTokenName" type="checkbox" {{#if announceTokenName}}checked="checked" {{/if}} />
+        </div>
+        <p class="notes">{{localize 'tm.settings.announceTokenName.hint'}}</p>
+   </div>
    </div>
     <hr />
     <!--Start Marker-->

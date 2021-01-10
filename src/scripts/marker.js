@@ -52,7 +52,7 @@ export class Marker {
      * Deletes any tiles flagged as a 'Start Marker' from the canvas
      */
     static async deleteStartMarker() {
-        for (var tile of canvas.scene.getEmbeddedCollection('Tile')) {
+        for (let tile of canvas.scene.getEmbeddedCollection('Tile')) {
             if (tile.flags.startMarker) {
                 await canvas.scene.deleteEmbeddedEntity('Tile', tile._id);
             }

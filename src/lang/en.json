@@ -36,6 +36,10 @@
                 "name": "Announced Actors",
                 "hint": "Who to announce in chat"
             },
+            "announceTokenName": {
+                "name": "Use Token Name to announce",
+                "hint": "If enabled, will use Token name instead of Actor name"
+            },
             "customImage": {
                 "name": "Custom Image Path",
                 "hint": "Use a custom image instead (leave blank to use a built in image)"

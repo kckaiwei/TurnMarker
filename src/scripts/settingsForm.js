@@ -31,6 +31,7 @@ export class SettingsForm extends FormApplication {
             customImage: Settings.getCustomImagePath(),
             announce: Settings.shouldAnnounceTurns(),
             announceImage: Settings.getIncludeAnnounceImage(),
+            announceTokenName :Settings.getAnnounceTokenName(),
             startMarkerEnabled: Settings.getStartMarkerEnabled(),
             startMarkerPath: Settings.getStartMarkerPath(),
             previewPath: Settings.getImagePath()
@@ -50,6 +51,7 @@ export class SettingsForm extends FormApplication {
         Settings.setShouldAnnounceTurns(d.announce);
         Settings.setAnnounceActors(d.announceActors);
         Settings.setIncludeAnnounceImage(d.announceImage);
+        Settings.setAnnounceTokenName(d.announceTokenName);
         Settings.setTurnMarkerEnabled(d.turnMarkerEnabled);
         Settings.setStartMarkerEnabled(d.startMarkerEnabled);
         Settings.setStartMarkerPath(d.startMarkerPath);
