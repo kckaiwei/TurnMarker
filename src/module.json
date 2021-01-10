@@ -2,16 +2,7 @@
   "name": "turnmarker",
   "title": "Turn Marker",
   "description": "Displays a (optionally animated) marker on the token who's active turn it is. Originally by Brunhine",
-  "authors": [
-    {
-      "name": "Brunhine",
-      "url": "https://github.com/Brunhine/TurnMarker"
-    },
-    {
-      "name": "kckaiwei",
-      "url": "https://github.com/kckaiwei/TurnMarker"
-    }
-  ],
+  "author": "kckaiwei",
   "version": "2.6.9",
   "minimumCoreVersion": "0.5.6",
   "compatibleCoreVersion": "0.6.6",
