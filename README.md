@@ -67,6 +67,13 @@ Want to help improve the module? Send a pull request.
 
 Want to show support another way? Recommend this module to other users.
 
+### Getting started
+
+`src` is the folder you want to work with. Make sure you have [npm](https://www.npmjs.com/ "NPM") installed. 
+Run `npm install` to install `gulp`
+
+When you're done making changes, run `gulp build` to recompile the `dist` folder
+
 ## Licensing
 **Turn Msrker** is a module for [Foundry VTT](https://foundryvtt.com/ "Foundry VTT") by Jeremiah Altepeter and is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
 

@@ -1,46 +1,53 @@
 {
-  "name": "turnmarker",
-  "title": "Turn Marker",
-  "description": "Displays a (optionally animated) marker on the token who's active turn it is. Originally by Brunhine",
-  "author": "kckaiwei",
-  "version": "2.6.9",
-  "minimumCoreVersion": "0.5.6",
-  "compatibleCoreVersion": "0.6.6",
-  "esmodules": [
-    "scripts/turnmarker.js"
-  ],
-  "socket": true,
-  "styles": [
-    "css/turnmarker.css"
-  ],
-  "languages": [
+	"name": "turnmarker",
+	"title": "Turn Marker",
+	"description": "Displays a (optionally animated) marker on the token who's active turn it is. Originally by Brunhine",
+	"authors": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
+      "name": "Brunhine",
+      "url": "https://github.com/Brunhine/TurnMarker"
     },
     {
-      "lang": "de",
-      "name": "German",
-      "path": "lang/de.json"
-    },
-    {
-      "lang": "ko",
-      "name": "Korean",
-      "path": "lang/ko.json"
-    },
-    {
-      "lang": "ja",
-      "name": " 日本語",
-      "path": "lang/ja.json"
-    },
-    {
-      "lang": "es",
-      "name": "Spanish",
-      "path": "lang/es.json"
+      "name": "kckaiwei",
+      "email": "kckaiwei@gmail.com"
     }
-  ],
-  "url": "https://github.com/kckaiwei/TurnMarker",
-  "manifest": "https://raw.githubusercontent.com/kckaiwei/TurnMarker/master/dist/module.json",
-  "download": "https://github.com/kckaiwei/TurnMarker/releases/v2.7.0.zip"
+	],
+	"version": "2.6.9",
+	"minimumCoreVersion": "0.5.6",
+	"compatibleCoreVersion": "0.6.6",
+	"esmodules": [
+		"scripts/turnmarker.js"
+	],
+	"socket": true,
+	"styles": ["css/turnmarker.css"],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		},
+		{
+			"lang": "de",
+			"name": "German",
+			"path": "lang/de.json"
+		},
+		{
+			"lang": "ko",
+			"name": "Korean",
+			"path": "lang/ko.json"
+		},
+		{
+			"lang": "ja",
+			"name": " 日本語",
+			"path": "lang/ja.json"
+		},
+		{
+			"lang": "es",
+			"name": "Spanish",
+			"path": "lang/es.json"
+		}
+	],
+	"url": "https://github.com/kckaiwei/TurnMarker",
+	"manifest": "https://raw.githubusercontent.com/kckaiwei/TurnMarker/v2.7.0/src/module.json",
+	"download": "https://github.com/kckaiwei/TurnMarker/releases/v2.7.0.zip"
 }
