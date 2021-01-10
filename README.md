@@ -1,12 +1,9 @@
 # Turn Marker
 **Turn Marker** is a module for [Foundry VTT](https://foundryvtt.com/ "Foundry VTT") that adds an image under a token who is currently active in the combat tracker. This is completely system agnostic, and fully customizable to fit right into your game.
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/brunhine/turnmarker?style=flat-square)
-![GitHub latest version downloads](https://img.shields.io/github/downloads/brunhine/turnmarker/latest/total?style=flat-square)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/kckaiwei/turnmarker?style=flat-square)
+![GitHub latest version downloads](https://img.shields.io/github/downloads/kckaiwei/turnmarker/latest/total?style=flat-square)
 
-[![Twitter Follow](https://img.shields.io/badge/follow-%40Brunhine-blue.svg?style=flat-square&logo=twitter)](https://twitter.com/brunhine)
-[![Become a Patron](https://img.shields.io/badge/support-patreon-orange.svg?style=flat-square&logo=patreon)](https://www.patreon.com/brunhine)
-[![Donate via Ko-Fi](https://img.shields.io/badge/support-ko--fi-ff4646?style=flat-square&logo=ko-fi)](https://ko-fi.com/brunhine)
 
 ## Installation
 It's always better and easier to install modules through in in app browser. Just search for "Turn Marker"
@@ -15,7 +12,7 @@ To install this module manually:
 1. Inside the Foundry "Configuration and Setup" screen, click "Add-on Modules"
 2. Click "Install Module"
 3. In the "Manifest URL" field, paste the following url:
-`https://gitlab.com/brunhine/foundry-turnmarker/-/raw/master/turnmarker/module.json`
+`https://raw.githubusercontent.com/kckaiwei/TurnMarker/master/dist/module.json`
 4. Click 'Install' and wait for installation to complete
 5. Don't forget to enable the module in game using the "Manage Module" button
 
@@ -56,17 +53,19 @@ Sets the path to an image to be used instead of the included images
 If enabled, a chat message will be sent when the turn in combat changes (unless the combatant is hidden in the combat tracker).
 
 ## Compatibility
-Most recently tested on [Foundry VTT](https://foundryvtt.com/ "Foundry VTT") version 0.5.5 (beta).
+Most recently tested on [Foundry VTT](https://foundryvtt.com/ "Foundry VTT") version 0.6.6.
+
+I've been developing on it on version 0.7.9, but haven't used it enough to deem it stable.
 
 ## Feedback
 All feedback and suggestions are welcome. Please contact me on Discord (Brunhine#2182).
 
-Any issues, bugs, or feature requests are always welcome to be reported directly to the [Issue Tracker](https://gitlab.com/brunhine/foundry-turnmarker/-/issues "Issue Tracker")
+Any issues, bugs, or feature requests are always welcome to be reported directly to the [Issue Tracker](https://github.com/kckaiwei/TurnMarker/issues "Issue Tracker")
 
 ## Support Development
-Want to help improve the module? Send a pull request, or contact me on Discord (Brunhine#2182)
+Want to help improve the module? Send a pull request.
 
-Want to show support another way? Recommend this module to other users and/or consider becoming a patron on [Patreon](https://patreon.com/brunhine "Brunhine's Patreon") or donating through [Ko-Fi](https://ko-fi.com/brunhine)
+Want to show support another way? Recommend this module to other users.
 
 ## Licensing
 **Turn Msrker** is a module for [Foundry VTT](https://foundryvtt.com/ "Foundry VTT") by Jeremiah Altepeter and is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
